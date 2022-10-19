@@ -186,7 +186,7 @@ if args.platforms:
 showetdir = os.path.expanduser("~/.showet")
 RetroPieEmuDir = os.path.expanduser("/opt/retropie/emulators")
 
-print("Check: If Folder %s exists." % showetdir)
+print("Check: if Folder %s exists." % showetdir)
 if not os.path.exists(showetdir):
     print("Warning: Folder %s does not exist" % showetdir)
     os.makedirs(showetdir)
@@ -194,7 +194,7 @@ if not os.path.exists(showetdir):
 else:
     print("Info: Folder %s exists." % showetdir)
 
-print("Check: iF Folder %s exists." % RetroPieEmuDir)
+print("Check: if Folder %s exists." % RetroPieEmuDir)
 if not os.path.exists(RetroPieEmuDir):
     print("Warning: %s does not exist" % RetroPieEmuDir)
     exit(-1)
